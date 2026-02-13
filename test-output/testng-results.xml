@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="26" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-12T20:56:08 IST" name="Default suite" finished-at="2026-02-12T21:04:25 IST" duration-ms="496802">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-02-12T20:56:08 IST" name="Default test" finished-at="2026-02-12T21:04:25 IST" duration-ms="496802">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:56:08 IST" name="setUpClass" finished-at="2026-02-12T20:56:09 IST" duration-ms="610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d9cf71d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:56:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T20:56:39 IST" duration-ms="29894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Apply price filter and verify results"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Filters and Sorting Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:56:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T20:57:01 IST" duration-ms="22334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Apply rating filter and verify results"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Filters and Sorting Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:57:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T20:57:21 IST" duration-ms="20375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sort search results by price"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Filters and Sorting Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:57:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T20:57:29 IST" duration-ms="7415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify From and To fields are present"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Flights Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:57:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T20:57:35 IST" duration-ms="6820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify departure date picker is present"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Flights Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:57:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T20:57:52 IST" duration-ms="16742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search flights with valid cities"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Flights Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:57:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T20:58:04 IST" duration-ms="11671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search flights with same source and destination"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Flights Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:58:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T20:58:24 IST" duration-ms="19851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search flights without selecting travel date"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Flights Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:58:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T20:58:40 IST" duration-ms="16758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify flight search results page is displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Flights Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:58:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T20:58:58 IST" duration-ms="17384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify list of available flights"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Flights Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:58:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T20:59:03 IST" duration-ms="5188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify home page loads successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Home Page Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:59:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T20:59:10 IST" duration-ms="6898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify login popup is handled"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Home Page Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:59:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T20:59:15 IST" duration-ms="5092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify presence of Flights tab"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Home Page Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:59:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T20:59:20 IST" duration-ms="4971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify presence of Hotels tab"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Home Page Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:59:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T20:59:25 IST" duration-ms="5171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify presence of Trains tab"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Home Page Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:59:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T20:59:33 IST" duration-ms="7729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify hotels page loads"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Hotels Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:59:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T20:59:49 IST" duration-ms="16463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search hotels with valid city"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Hotels Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T20:59:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T21:00:12 IST" duration-ms="22561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search hotels without selecting dates"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Hotels Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T21:00:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T21:00:29 IST" duration-ms="16822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify hotel results are displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Hotels Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T21:00:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T21:00:37 IST" duration-ms="7938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify navigation from Flights to Hotels"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Navigation Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T21:00:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T21:00:45 IST" duration-ms="8200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify navigation from Hotels to Trains"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Navigation Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T21:00:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T21:00:52 IST" duration-ms="7131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify navigation from Trains to Flights"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Navigation Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T21:00:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T21:01:43 IST" duration-ms="50649" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click on a flight from search results"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Search Results Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Details page not opened expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Details page not opened expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at stepdefinitions.SearchResultsSteps.detailsPageShouldBeOpened(SearchResultsSteps.java:19)
+at ✽.details page should be opened(file:///C:/Users/laksh/Desktop/captstonemainprojectautomation/MakeMyTrip_Capstone-main/MakeMyTrip_Capstone-project/src/test/resources/features/SearchResults.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T21:01:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T21:02:33 IST" duration-ms="50723" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify details page is displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Search Results Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Details page not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Details page not displayed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at stepdefinitions.SearchResultsSteps.detailsPageShouldBeDisplayed(SearchResultsSteps.java:24)
+at ✽.details page should be displayed(file:///C:/Users/laksh/Desktop/captstonemainprojectautomation/MakeMyTrip_Capstone-main/MakeMyTrip_Capstone-project/src/test/resources/features/SearchResults.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T21:02:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T21:03:23 IST" duration-ms="49368" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify fare or price details are displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Search Results Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Fare details not visible expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Fare details not visible expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at stepdefinitions.SearchResultsSteps.fareOrPriceDetailsShouldBeVisible(SearchResultsSteps.java:29)
+at ✽.fare or price details should be visible(file:///C:/Users/laksh/Desktop/captstonemainprojectautomation/MakeMyTrip_Capstone-main/MakeMyTrip_Capstone-project/src/test/resources/features/SearchResults.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T21:03:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T21:03:30 IST" duration-ms="7669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify trains page loads"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Trains Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T21:03:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T21:03:50 IST" duration-ms="19263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search trains with valid stations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Trains Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T21:03:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T21:04:05 IST" duration-ms="15249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search trains without travel date"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Trains Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T21:04:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-12T21:04:25 IST" duration-ms="19735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify train results page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MakeMyTrip Trains Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@4c12331b]" started-at="2026-02-12T21:04:25 IST" name="tearDownClass" finished-at="2026-02-12T21:04:25 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

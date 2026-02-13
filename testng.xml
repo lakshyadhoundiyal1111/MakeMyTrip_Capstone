@@ -1,0 +1,9 @@
+<suite name="MakeMyTrip BDD Test Suite">
+
+    <test name="Cucumber Tests">
+        <classes>
+            <class name="runner.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>
